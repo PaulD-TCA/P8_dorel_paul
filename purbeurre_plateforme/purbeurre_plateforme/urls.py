@@ -18,6 +18,13 @@ from django.contrib import admin
 from django.urls import include, path
 from django.contrib.auth import views as auth_views
 
+# urlpatterns = [
+#     path('search_and_sub/', include('search_and_sub.urls')),
+#     path('user/', include('user.urls')),
+#     path('basics_screens/', include('basics_screens.urls')),
+#     path('', include('search_and_sub.urls')),
+#     path('admin/', admin.site.urls),
+]
 
 urlpatterns = [
     path('purbeurre_plateforme.search_and_sub/', include('purbeurre_plateforme.search_and_sub.urls')),
