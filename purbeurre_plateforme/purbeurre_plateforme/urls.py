@@ -23,6 +23,6 @@ urlpatterns = [
     path('purbeurre_plateforme.search_and_sub/', include('purbeurre_plateforme.search_and_sub.urls')),
     path('purbeurre_plateforme.user/', include('purbeurre_plateforme.user.urls')),
     path('purbeurre_plateforme.basics_screens/', include('purbeurre_plateforme.basics_screens.urls')),
-    path('', include('search_and_sub.urls')),
+    path('', include('purbeurre_plateforme.search_and_sub.urls')),
     path('admin/', admin.site.urls),
 ]
