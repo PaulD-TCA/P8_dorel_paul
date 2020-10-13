@@ -49,9 +49,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'user',
-    'basics_screens',
-    'search_and_sub',
+    'purbeurre_plateforme.user',
+    'purbeurre_plateforme.basics_screens',
+    'purbeurre_plateforme.search_and_sub',
 ]
 
 MIDDLEWARE = [
@@ -65,7 +65,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
-# ROOT_URLCONF = 'urls'
+
 ROOT_URLCONF = 'purbeurre_plateforme.urls'
 
 TEMPLATES = [
@@ -84,7 +84,7 @@ TEMPLATES = [
     },
 ]
 
-# WSGI_APPLICATION = 'wsgi.application'
+
 WSGI_APPLICATION = 'purbeurre_plateforme.wsgi.application'
 
 # Database
