@@ -49,9 +49,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'user',
-    'basics_screens',
-    'search_and_sub',
+    'purbeurre_plateforme.user',
+    'purbeurre_plateforme.basics_screens',
+    'purbeurre_plateforme.search_and_sub',
 ]
 
 MIDDLEWARE = [
