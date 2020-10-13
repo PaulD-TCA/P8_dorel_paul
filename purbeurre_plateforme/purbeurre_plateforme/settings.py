@@ -66,7 +66,7 @@ MIDDLEWARE = [
 ]
 
 
-ROOT_URLCONF = 'purbeurre_plateforme.urls'
+ROOT_URLCONF = 'purbeurre_plateforme.purbeurre_plateforme.urls'
 
 TEMPLATES = [
     {
