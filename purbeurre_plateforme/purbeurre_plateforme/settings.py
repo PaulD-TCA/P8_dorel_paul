@@ -65,6 +65,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
+# ROOT_URLCONF = 'urls'
 ROOT_URLCONF = 'purbeurre_plateforme.urls'
 
 TEMPLATES = [
@@ -83,8 +84,8 @@ TEMPLATES = [
     },
 ]
 
+# WSGI_APPLICATION = 'wsgi.application'
 WSGI_APPLICATION = 'purbeurre_plateforme.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
