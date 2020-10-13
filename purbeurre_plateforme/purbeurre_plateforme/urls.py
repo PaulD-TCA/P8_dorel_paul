@@ -20,9 +20,9 @@ from django.contrib.auth import views as auth_views
 
 
 urlpatterns = [
-    path('purbeurre_plateforme.search_and_sub/', include('purbeurre_plateforme.search_and_sub.urls')),
-    path('purbeurre_plateforme.user/', include('purbeurre_plateforme.user.urls')),
-    path('purbeurre_plateforme.basics_screens/', include('purbeurre_plateforme.basics_screens.urls')),
-    path('purbeurre_plateforme', include('purbeurre_plateforme.search_and_sub.urls')),
-    path('purbeurre_plateforme.admin/', admin.site.urls),
+    path('purbeurre_plateforme.search_and_sub/', include('search_and_sub.urls')),
+    path('purbeurre_plateforme.user/', include('user.urls')),
+    path('purbeurre_plateforme.basics_screens/', include('basics_screens.urls')),
+    path('', include('search_and_sub.urls')),
+    path('admin/', admin.site.urls),
 ]
